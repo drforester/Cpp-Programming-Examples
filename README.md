@@ -10,7 +10,8 @@ These modern C++ examples are meant to serve as examples for me to reference whe
 #### Vectors and the \<algorithms\> library in C++ STL  
 1. [Part 1. Misc.](src/vector\_STL\_algorithms.cpp)
 2. [Part 2. Sorting](src/vec\_sorting.cpp)
-3. [A Vector of vectors](src/vector\_of\_vectors.cpp)    
+3. [A Vector of vectors](src/vec\_of\_vecs1.cpp) 
+4. [More vector of vectors](src/vec\_of\_vecs2.cpp)   
 
 
 #### \<unordered_map\> and its uses  

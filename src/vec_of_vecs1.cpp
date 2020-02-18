@@ -17,7 +17,7 @@ int main(void)
                               { 4, 5, 6 }, 
                               { 7, 8, 9, 8, 7 } };
 
-    // Display the 2D vector 
+    // Traverse and print the 2D vector 
     for (int i = 0; i < vec.size(); i++) { 
         for (int j = 0; j < vec[i].size(); j++) 
             cout << vec[i][j] << " "; 
