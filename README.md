@@ -7,6 +7,11 @@ These modern C++ examples are meant to serve as examples for me to reference whe
 2. [Vectors of randomly generated floats](src/vec\_rand\_floats.cpp)
 
 
+#### Strings
+1. [Check if a string contains any one of a number of characters](src/strings1.cpp)  
+2. [Check if a string contains a given substring](src/strings2.cpp)  
+
+
 #### Vectors and the \<algorithms\> library in C++ STL  
 1. [Part 1. Misc.](src/vector\_STL\_algorithms.cpp)
 2. [Part 2. Sorting](src/vec\_sorting.cpp)
