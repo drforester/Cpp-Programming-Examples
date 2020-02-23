@@ -21,7 +21,12 @@ These modern C++ examples are meant to serve as examples for me to reference whe
 
 #### \<unordered_map\> and its uses  
 1. [Basic unordered_map examples](src/unordered\_map.cpp)  
-2. [Find word frequencies using unordered_map](src/umap\_count\_freq.cpp)    
+2. [Find word frequencies using unordered_map](src/umap\_count\_freq.cpp)  
+
+
+#### Useful utility functions  
+1. [A variadic printing function for debugging](src/test\_debug.cpp)  
+
 
 
 ##### much more to come ...
