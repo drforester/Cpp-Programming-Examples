@@ -14,8 +14,8 @@ using std::cout;
 // function generator:
 int RandomNumber() { return (std::rand()%100); }
 
-bool sortAsc(int i,int j) { return (i<j); } // i>j ascending
-bool sortDesc(int i,int j) { return (i>j); } // i<j descending
+bool sortAsc(int i,int j) { return (i<j); } // i<j ascending
+bool sortDesc(int i,int j) { return (i>j); } // i>j descending
 
 int main() {
 
@@ -37,7 +37,7 @@ int main() {
     std::sort(aVec1.begin(), aVec1.end());
 
     // use our comparator function sortDesc()
-    std::sort(aVec2.begin(), aVec2.end(), sortAsc);
+    std::sort(aVec2.begin(), aVec2.end(), sortDesc);
 
     // sort half the vector using sortAsc()
     std::sort(aVec3.begin(), aVec3.begin()+4, sortAsc);
