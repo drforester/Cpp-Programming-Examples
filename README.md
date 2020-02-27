@@ -12,6 +12,11 @@ These modern C++ examples are meant to serve as examples for me to reference whe
 2. [Check if a string contains a given substring](src/strings2.cpp)  
 
 
+#### Lists
+1. [Merge two lists](src/merge\_lists.cpp)  
+2. [Append a list to the end of another](src/splice\_lists.cpp)  
+
+
 #### Vectors and the \<algorithms\> library in C++ STL  
 1. [Part 1. Misc.](src/vector\_STL\_algorithms.cpp)
 2. [Part 2. Sorting](src/vec\_sorting.cpp)
