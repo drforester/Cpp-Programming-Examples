@@ -1,6 +1,6 @@
 ### C++ Programming Patterns  
 
-These modern C++ examples are meant to serve as examples for me to reference when using the language. With ~75% of my work being in the Python ecosystem, and my fun programming being in C (solving Project Euler problems mostly), I get confused when I switch back to C++. The idea is that looking at these examples will quickly get my head back into the C++ way of thinking. Most of the examples will be simply using parts of the vast STL. I hope that you will find this collection useful too.  
+These modern C++ examples are meant to serve as examples for me to reference. With ~70% of my work being in the Python ecosystem, and my fun programming being in C (solving Project Euler problems mostly), I get confused when I switch back to C++. The idea is that looking at these examples will quickly get me back in the C++ way of thinking. Most of the examples will be simply using parts of the vast STL. I hope that you will find this collection useful too.  
 
 #### Random Numbers
 1. [Vectors of randomly generated ints](src/vec\_rand\_ints.cpp)  
@@ -31,8 +31,9 @@ These modern C++ examples are meant to serve as examples for me to reference whe
 3. [Check whether one map's keys exist in another map](src/two\_umaps.cpp)  
 
 
-#### Useful utility functions  
+#### Useful utility functions, etc.  
 1. [A variadic printing function for debugging](src/test\_debug.cpp)  
+2. [Starter source for competitive programming](src/starter.cpp)  
 
 
 
