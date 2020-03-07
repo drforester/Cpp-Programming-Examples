@@ -25,7 +25,11 @@ These modern C++ examples are meant to serve as examples for me to reference. Wi
 4. [More vector of vectors](src/vec\_of\_vecs2.cpp)   
 
 
-#### \<unordered_map\> and its uses  
+#### std::generate and function generators
+1. [generate elements in a sequence according to a rule](src/generate.cpp)  
+
+
+#### unordered_map and its uses  
 1. [Basic unordered_map examples](src/unordered\_map.cpp)  
 2. [Find word frequencies using unordered_map](src/umap\_count\_freq.cpp)  
 3. [Check whether one map's keys exist in another map](src/two\_umaps.cpp)  
