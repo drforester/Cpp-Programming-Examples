@@ -1,6 +1,8 @@
 ### C++ Programming Patterns  
 
-These modern C++ examples are meant to serve as examples for me to reference. With ~70% of my work being in the Python ecosystem, and my fun programming being in C (solving Project Euler problems mostly), I get confused when I switch back to C++. The idea is that looking at these examples will quickly get me back in the C++ way of thinking. Most of the examples will be simply using parts of the vast STL. I hope that you will find this collection useful too.  
+<img src="./src/cpplogo.png" width="70">
+
+These modern C++ examples are meant to serve as examples for me to reference now that I've determined to stop programming in C++ as if it were C. The STL, now that I'm using it regularly is so great that I hardly feel stripped of my Python powers. Well... list comprehensions... I mostly miss that.  
 
 #### Random Numbers
 1. [Vectors of randomly generated ints](src/vec\_rand\_ints.cpp)  
