@@ -1,10 +1,10 @@
 #include <iostream>
 #include <vector>
 #include <list>
-#include <numeric>    // iota
+#include <numeric>   // iota
 #include <random>    // mt19937
 #include <algorithm> // shuffle
-#include "printing.cpp"
+#include "utils/printing.hpp"
 
 using std::cout;
 
