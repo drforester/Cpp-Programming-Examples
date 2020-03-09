@@ -31,6 +31,10 @@ These modern C++ examples are meant to serve as examples for me to reference now
 1. [generate elements in a sequence according to a rule](src/generate.cpp)  
 
 
+#### std::shuffle  
+1. [randomly shuffle elements in a vector or a list](src/shuffles.cpp)  
+
+
 #### unordered_map and its uses  
 1. [Basic unordered_map examples](src/unordered\_map.cpp)  
 2. [Find word frequencies using unordered_map](src/umap\_count\_freq.cpp)  
