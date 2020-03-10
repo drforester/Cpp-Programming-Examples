@@ -1,27 +1,31 @@
 /*
-input:
 
-3 1 8 9 2
-7 3 3 0 1
-8 4 5 2 8
-6 0 9 5 1
+Given an nxm matrix of integers, zero-out the columns and the rows
+of any elements equal to zero.
+
+sample input:
+
+    3 1 8 9 2
+    7 3 3 0 1
+    8 4 5 2 8
+    6 0 9 5 1
 
 output:
 
-3 0 8 0 2
-0 0 0 0 0
-8 0 5 0 8
-0 0 0 0 0
+    3 0 8 0 2
+    0 0 0 0 0
+    8 0 5 0 8
+    0 0 0 0 0
 
 */
 
 #include <iostream>
 #include <vector>
-#include <utility>  // std::pair
+#include <unordered_set>
 
 using std::cout;
 using std::vector;
-using std::pair;
+using std::unordered_set;
 
 int main()
 {
@@ -31,29 +35,34 @@ int main()
                               {8,4,5,2,8},
                               {6,0,9,5,1} };
 
-    // traverse the matrix, saving locations of zeros to a vector of pairs
+    // traverse the matrix, saving i,j indexes of zero elements to unordered_sets
     int i,j;
-    vector<pair<int,int>> zyx;
+    vector<int> rowVec;
+    vector<int> colVec;
+    unordered_set<int> usetRows;
+    unordered_set<int> usetCols;
     for (i=0; i<M.size(); i++) {
         for (j=0; j<M[i].size(); j++) {
-            if (M[i][j] == 0)
-                zyx.push_back(pair(i,j));
+            if (M[i][j] == 0) {
+                usetRows.insert(i);
+                usetCols.insert(j);
+            }
         }
     }
 
     // iterate over the zeros, if any
-    if (zyx.size()) {
-        for (auto& e:zyx) { // zero-out these rows
-            for (int j=0; j<M[e.first].size(); j++)
-                M[e.first][j] = 0;
+    if (usetRows.size()) {
+        for (auto& e:usetRows) { // zero-out these rows
+            for (int j=0; j<M[e].size(); j++)
+                M[e][j] = 0;
         }
-        for (auto& e:zyx) { // zero-out these cols
-            for (int i=0; i<M.size(); i++)
-                M[i][e.second] = 0;
+        for (auto& e:usetCols) { // zero-out these cols
+            for (int i=0; i<M.size(); i++)        
+                M[i][e] = 0;
         }
     }
 
-
+    // print the resultant matrix
     for (i=0; i<M.size(); i++) {
         for (j=0; j<M[i].size(); j++) {
             cout << M[i][j] << " ";
@@ -61,5 +70,4 @@ int main()
         cout << "\n";
     }
     
-
 }
