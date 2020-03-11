@@ -39,6 +39,11 @@ These modern C++ examples are meant to serve as examples for me to reference now
 1. [Basic unordered_map examples](src/unordered\_map.cpp)  
 2. [Find word frequencies using unordered_map](src/umap\_count\_freq.cpp)  
 3. [Check whether one map's keys exist in another map](src/two\_umaps.cpp)  
+4. [Application: Solving a classic interview problem with a hash table](src/twoSum.cpp)  
+
+
+#### unordered_set and its uses  
+1. [Application: zeroing-out select rows & cols using an unordered set](src/matrix\_zeros.cpp)  
 
 
 #### Useful utility functions, etc.  
