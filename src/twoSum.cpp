@@ -35,12 +35,10 @@ int main()
             umap.insert(pair(inVec[i],i));
         else {
             cout << "(" << umap[desired] << "," << i << ")\n";
-
             EXISTS = 1;
             break;
         }
     }
-    
     if (!EXISTS)
         cout << "No such element pair exists.\n";
 }
