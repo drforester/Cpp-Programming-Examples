@@ -9,12 +9,11 @@ using namespace std;
 // adjacency list representation 
 class Graph 
 { 
-    int N;  // number of vertices 
-  
-    // Pointer to an array of adjacency lists 
-    list<int> *adj;    
+    int N; // number of vertices 
+    list<int> *adj; // Pointer to an array of adjacency lists 
+ 
 public: 
-    Graph(int N);  // Constructor 
+    Graph(int N); // Constructor 
   
     // add an edge to graph 
     void addEdge(int n, int w);  
@@ -29,11 +28,11 @@ Graph::Graph(int N) {
 } 
   
 void Graph::addEdge(int n, int w) { 
-    adj[n].push_back(w); // Add w to v’s list. 
+    adj[n].push_back(w);
 } 
   
 void Graph::BFS(int s) { 
-    // Mark all the vertices as not visited 
+    // initially all the vertices are marked as unvisited
     bool *visited = new bool[N]; 
     for(int i = 0; i < N; i++) 
         visited[i] = false; 
