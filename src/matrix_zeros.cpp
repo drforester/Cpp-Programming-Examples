@@ -37,8 +37,6 @@ int main()
 
     // traverse the matrix, saving i,j indexes of zero elements to unordered_sets
     int i,j;
-    vector<int> rowVec;
-    vector<int> colVec;
     unordered_set<int> usetRows;
     unordered_set<int> usetCols;
     for (i=0; i<M.size(); i++) {
