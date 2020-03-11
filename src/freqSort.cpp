@@ -39,7 +39,7 @@ int main()
     // sort the key:value map by value. Do this by copying the map into a vector
     // of key-value pairs and sort that.
     vector<pair<char,int>> vec;
-    std::copy(umap.begin(), umap.end(), std::back_inserter<vector<pair<char,int>>>(vec));
+    std::copy(umap.begin(), umap.end(), std::back_inserter(vec));
     std::sort(vec.begin(), vec.end(), sortAsc);
 
     // print the sorted vector
