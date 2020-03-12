@@ -21,10 +21,10 @@ These modern C++ examples are meant to serve as examples for me to reference now
 
 
 #### Vectors, including some of the \<algorithms\> library    
-1. [Part 1. Misc.](src/vector\_STL\_algorithms.cpp)
-2. [Part 2. Sorting](src/vec\_sorting.cpp)
-3. [A Vector of vectors](src/vec\_of\_vecs1.cpp) 
-4. [More vector of vectors](src/vec\_of\_vecs2.cpp)   
+1. [min_element(), max_element(), accumulate()](src/vector\_STL\_algorithms.cpp)  
+2. [Sort and comparator functions](src/vec\_sorting.cpp)  
+3. [A Vector of vectors](src/vec\_of\_vecs1.cpp)  
+4. [More vector of vectors](src/vec\_of\_vecs2.cpp)  
 5. [Randomly __shuffle__ elements in a vector or a list](src/shuffles.cpp)  
 
 
@@ -33,7 +33,7 @@ These modern C++ examples are meant to serve as examples for me to reference now
 
 
 #### std::generate and function generators
-1. [generate elements in a sequence according to a rule](src/generate.cpp)  
+1. [Generate elements in a sequence according to a rule](src/generate.cpp)  
 
 
 #### unordered_map and its uses  
