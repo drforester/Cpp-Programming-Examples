@@ -1,5 +1,7 @@
+/*
+Print BFS traversal from a given vertex.
+*/
 
-// Print BFS traversal from a given vertex.
 #include<iostream> 
 #include <list> 
   
@@ -10,7 +12,7 @@ using namespace std;
 class Graph 
 { 
     int N; // number of vertices 
-    list<int> *adj; // Pointer to an array of adjacency lists 
+    list<int> *adj; // pointer to an array of adjacency lists 
  
 public: 
     Graph(int N); // Constructor 
