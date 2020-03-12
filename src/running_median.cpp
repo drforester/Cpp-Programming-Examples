@@ -37,6 +37,8 @@ int main() {
         rDeq.pop_front();
         int irand = std::rand()%100;
         rDeq.push_back(irand);
+
+        cout << "deque        : ";
         for (auto& e:rDeq)
             cout << e << " ";
         cout << "\n";
@@ -45,9 +47,10 @@ int main() {
         sVec.clear(); // to keep the vector from growing with each copy
         std::copy(rDeq.begin(), rDeq.end(), std::back_inserter(sVec));
         std::sort(sVec.begin(), sVec.end());
+        cout << "sorted vector: ";
         for (auto& e:sVec)
             cout << e << " ";
-        cout << "\n";       
+        cout << "\nmedian: ";       
 
         if (ISODD) { // odd number of elements
             midx1 = sz/2;
