@@ -25,7 +25,7 @@ These modern C++ examples are meant to serve as examples for me to reference now
 2. [Part 2. Sorting](src/vec\_sorting.cpp)
 3. [A Vector of vectors](src/vec\_of\_vecs1.cpp) 
 4. [More vector of vectors](src/vec\_of\_vecs2.cpp)   
-5. [randomly shuffle elements in a vector or a list](src/shuffles.cpp)  
+5. [Randomly __shuffle__ elements in a vector or a list](src/shuffles.cpp)  
 
 
 #### Deques
