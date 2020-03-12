@@ -25,6 +25,7 @@ These modern C++ examples are meant to serve as examples for me to reference now
 2. [Part 2. Sorting](src/vec\_sorting.cpp)
 3. [A Vector of vectors](src/vec\_of\_vecs1.cpp) 
 4. [More vector of vectors](src/vec\_of\_vecs2.cpp)   
+5. [randomly shuffle elements in a vector or a list](src/shuffles.cpp)  
 
 
 #### Deques
@@ -33,10 +34,6 @@ These modern C++ examples are meant to serve as examples for me to reference now
 
 #### std::generate and function generators
 1. [generate elements in a sequence according to a rule](src/generate.cpp)  
-
-
-#### std::shuffle  
-1. [randomly shuffle elements in a vector or a list](src/shuffles.cpp)  
 
 
 #### unordered_map and its uses  
