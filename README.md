@@ -27,6 +27,10 @@ These modern C++ examples are meant to serve as examples for me to reference now
 4. [More vector of vectors](src/vec\_of\_vecs2.cpp)   
 
 
+#### Deques
+1. [__APPLICATION__: compute the running median](src/running\_median.cpp) 
+
+
 #### std::generate and function generators
 1. [generate elements in a sequence according to a rule](src/generate.cpp)  
 
