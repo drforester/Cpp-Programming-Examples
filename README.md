@@ -20,7 +20,7 @@ These modern C++ examples are meant to serve as examples for me to reference now
 3. [Remove elements using a filter](src/list\_rm\_elems.cpp)    
 
 
-#### Vectors and the \<algorithms\> library in C++ STL  
+#### Vectors, including some of the \<algorithms\> library    
 1. [Part 1. Misc.](src/vector\_STL\_algorithms.cpp)
 2. [Part 2. Sorting](src/vec\_sorting.cpp)
 3. [A Vector of vectors](src/vec\_of\_vecs1.cpp) 
