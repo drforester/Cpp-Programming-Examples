@@ -42,6 +42,7 @@ These modern C++ examples are meant to serve as examples for me to reference now
 3. [Check whether one map's keys exist in another map](src/two\_umaps.cpp)  
 4. [__Application__: Solving the classic interview problem "2-sum"](src/twoSum.cpp)  
 5. [__Application__: Solving the interview problem "Frequency Sort"](src/freqSort.cpp)  
+6. [__Application__: Solving the interview problem "LRU Cache"](src/LRUCache.cpp) 
 
 
 #### unordered_set and its uses  
