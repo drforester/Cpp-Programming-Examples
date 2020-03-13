@@ -12,6 +12,7 @@ These modern C++ examples are meant to serve as examples for me to reference now
 #### Strings
 1. [Check if a string contains any one of a number of characters](src/strings1.cpp)  
 2. [Check if a string contains a given substring](src/strings2.cpp)  
+3. [Working with filenames using string member functions](src/filenames.cpp)  
 
 
 #### Lists
