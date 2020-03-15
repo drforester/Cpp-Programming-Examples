@@ -25,7 +25,7 @@ int main()
     unordered_map<int,int> umap;
     // begin traversing the vector checking the unordered map for the
     // desired value. If "desired" is not found, then add the current
-    // value and it's index to the map. If it is found, then return its
+    // value and its index to the map. If it is found, then return its
     // mapped index and this current index and break the loop.
     int i, desired;
     int EXISTS = 0;
