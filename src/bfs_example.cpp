@@ -4,11 +4,10 @@ Print BFS traversal from a given vertex.
 
 #include<iostream> 
 #include <list> 
-  
-using namespace std; 
-  
-// This class represents a directed graph using 
-// adjacency list representation 
+
+using std::cout;
+using std::list; 
+
 class Graph 
 { 
     int N; // number of vertices 
@@ -34,31 +33,30 @@ void Graph::addEdge(int n, int w) {
 } 
   
 void Graph::BFS(int s) { 
-    // initially all the vertices are marked as unvisited
+    // initially all the vertices are set to not-visited
     bool *visited = new bool[N]; 
     for(int i = 0; i < N; i++) 
         visited[i] = false; 
   
-    // Create a queue for BFS 
+    // create a queue for BFS 
     list<int> queue; 
   
-    // Mark the current node as visited and enqueue it 
+    // set the current node as visited and enqueue it 
     visited[s] = true; 
     queue.push_back(s); 
   
-    // 'i' will be used to get all adjacent vertices of a vertex 
+    // iterator used to get all adjacent vertices of a vertex
     list<int>::iterator i; 
   
     while(!queue.empty()) 
     { 
-        // Dequeue a vertex from queue and print it 
+        // dequeue a vertex from queue and print it 
         s = queue.front(); 
         cout << s << " "; 
         queue.pop_front(); 
   
-        // Get all adjacent vertices of the dequeued 
-        // vertex s. If a adjacent has not been visited,  
-        // then mark it visited and enqueue it 
+        // Get all adjacent vertices of the dequeued vertex s. If an adjacent vertex
+        // has not been visited, then mark it visited and enqueue it.
         for (i = adj[s].begin(); i != adj[s].end(); ++i) 
         { 
             if (!visited[*i]) 
@@ -105,4 +103,3 @@ int main()
   
     return 0; 
 } 
-
