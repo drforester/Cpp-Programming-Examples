@@ -1,5 +1,5 @@
 /*
-Print BFS traversal from a given vertex.
+Breadth-first-search (BFS) from a given vertex in a graph.
 */
 
 #include<iostream> 
@@ -11,16 +11,12 @@ using std::list;
 class Graph 
 { 
     int N; // number of vertices 
-    list<int> *adj; // pointer to an array of adjacency lists 
+    list<int> *adj; // pointer to array of adjacency lists 
  
 public: 
-    Graph(int N); // Constructor 
-  
-    // add an edge to graph 
-    void addEdge(int n, int w);  
-  
-    // prints BFS traversal from a given source s 
-    void BFS(int s);   
+    Graph(int N); // create a Graph with N vertices
+    void addEdge(int n, int w); // add an edge between two vertices
+    void BFS(int s); // BFS traversal from source vertex s 
 };
   
 Graph::Graph(int N) { 
@@ -55,12 +51,11 @@ void Graph::BFS(int s) {
         cout << s << " "; 
         queue.pop_front(); 
   
-        // Get all adjacent vertices of the dequeued vertex s. If an adjacent vertex
-        // has not been visited, then mark it visited and enqueue it.
-        for (i = adj[s].begin(); i != adj[s].end(); ++i) 
-        { 
-            if (!visited[*i]) 
-            { 
+        // Get all adjacent vertices of the dequeued vertex s.
+        // If an adjacent vertex has not been visited, then mark
+        // it visited and enqueue it.
+        for (i = adj[s].begin(); i != adj[s].end(); ++i) { 
+            if (!visited[*i]) { 
                 visited[*i] = true; 
                 queue.push_back(*i); 
             } 

@@ -50,6 +50,10 @@ These modern C++ examples are meant to serve as examples for me to reference now
 1. [__Application__: zeroing-out select rows & cols using an unordered set](src/matrix\_zeros.cpp)  
 
 
+#### Data Structures: __Graphs__  
+1. [__Application__: Breadth-first-search (BFS) in a directed graph](src/bfs\_example.cpp)  
+
+
 #### Useful utility functions, etc.  
 1. [A variadic printing function for debugging](src/test\_debug.cpp)  
 2. [A template printing function for vectors of different data types](src/utils/printing.cpp)  
