@@ -30,7 +30,7 @@ These modern C++ examples are meant to serve as examples for me to reference now
 
 
 #### Deques
-1. [__APPLICATION__: compute the running median](src/running\_median.cpp) 
+1. [__Application__: compute the running median](src/running\_median.cpp) 
 
 
 #### std::generate and function generators
