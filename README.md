@@ -28,6 +28,7 @@ These modern C++ examples are meant to serve as examples for me to reference now
 3. [A Vector of vectors](src/vec\_of\_vecs1.cpp)  
 4. [More vector of vectors](src/vec\_of\_vecs2.cpp)  
 5. [Randomly __shuffle__ elements in a vector or a list](src/shuffles.cpp)  
+6. [Rearrange a collection into the next lexicographical permutation](src/permutations.cpp)  
 
 
 #### Deques
