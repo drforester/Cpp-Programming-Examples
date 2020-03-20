@@ -58,7 +58,7 @@ These modern C++ examples are meant to serve as examples for me to reference now
 
 
 #### Classes  
-1. [Sort a vector of custom class objects by private member](src/vec\_of\_objs/vec\_of\_objs.cpp)   
+1. [Sort a vector of custom class objects by private member variable](src/vec\_of\_objs/vec\_of\_objs.cpp)   
 
 
 #### Useful utility functions, etc.  
