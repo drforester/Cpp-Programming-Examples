@@ -54,7 +54,11 @@ These modern C++ examples are meant to serve as examples for me to reference now
 
 #### Data Structures: __Graphs__  
 1. [__Application__: Breadth-first-search (BFS) in a directed graph](src/bfs\_example.cpp)  
-1. [__Application__: Depth-first-search (DFS) in a directed graph](src/dfs\_example.cpp)  
+2. [__Application__: Depth-first-search (DFS) in a directed graph](src/dfs\_example.cpp)  
+
+
+#### Classes  
+1. [Sort a vector of custom class by private member](src/vec\_of\_objs/vec\_of\_objs.cpp)   
 
 
 #### Useful utility functions, etc.  
