@@ -13,31 +13,20 @@ private:
     int wisdom {0};
     int charisma {0};
     double gold {0.0};
-    bool isOverBurdened {false};
+    bool isOverBurdened {false}; // is the player's inventory at max capacity
+    static inline size_t playerCount {}; // count of players in existence
 
 public:
     // Constructors
-    Player(std::string nom, int intel, int stren, int wis, int charis) {
-        name = nom;
-        intelligence = intel;
-        strength = stren;
-        wisdom = wis;
-        charisma = charis;
-    }
+    Player(std::string nom, int intel, int stren, int wis, int charis);
+    Player();     // No-arg constructor
 
-    Player() = default;     // No-arg constructor
+    // Destructor
+    ~Player();
 
-    int getCharisma() {
-        return charisma;
-    }
-
-    void listPlayer() const {
-        std::cout << name << "(" 
-                  << intelligence << ',' 
-                  << strength  << ',' 
-                  << wisdom << ','
-                  << charisma
-                  << ")\n";
-    }
+    void removePlayer();
+    size_t getCharisma() const;
+    size_t getPlayerCount() const;
+    void listPlayer() const;
 };
 #endif
