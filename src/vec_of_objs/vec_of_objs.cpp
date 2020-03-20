@@ -9,8 +9,8 @@
 
 using std::cout;
 
-bool sortAsc(Player a, Player b) { 
-    return (a.getCharisma()<b.getCharisma()); }
+bool sortDesc(Player a, Player b) { 
+    return (a.getCharisma()>b.getCharisma()); }
 
 int main()
 {   
@@ -19,22 +19,19 @@ int main()
     Player p003("Galen", 16,10,17,14);
  
     std::vector<Player> playersVec;
-    playersVec.push_back(p001);
-    playersVec.push_back(p002);
-    playersVec.push_back(p003);
+    playersVec.push_back(std::move(p001)); // move object into vector (no copy)
+    playersVec.push_back(std::move(p002));
+    playersVec.push_back(std::move(p003));
 
     // sort vector according to players' charisma
-    std::sort(playersVec.begin(), playersVec.end(), sortAsc);
+    std::sort(playersVec.begin(), playersVec.end(), sortDesc);
     
     // print vector elements
     for (auto& e: playersVec)
         e.listPlayer();
+    cout << "\n";
 
-    // how many players have been instantiated?
-    cout << "number of players: " << playersVec[0].getPlayerCount() << "\n";
-
-    // remove a player
-    p003.removePlayer(); 
+    playersVec.pop_back();
 
     // print vector elements
     for (auto& e: playersVec)
