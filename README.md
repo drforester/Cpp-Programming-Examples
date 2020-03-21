@@ -61,6 +61,10 @@ These modern C++ examples are meant to serve as examples for me to reference now
 1. [Sort a vector of custom class objects by private member variable](src/vec\_of\_objs/vec\_of\_objs.cpp)   
 
 
+#### Other Competetive Programming & Interview Problem Solutions 
+1. [__Reverse and Integer__](src/reverse\_int.cpp)    
+
+
 #### Useful utility functions, etc.  
 1. [A variadic printing function for debugging](src/test\_debug.cpp)  
 2. [A template printing function for vectors of different data types](src/utils/printing.cpp)  
