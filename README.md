@@ -62,7 +62,7 @@ These modern C++ examples are meant to serve as examples for me to reference now
 
 
 #### Other Competetive Programming & Interview Problem Solutions 
-1. [__Reverse and Integer__](src/reverse\_int.cpp)    
+1. [__Reverse an Integer__](src/reverse\_int.cpp)    
 
 
 #### Useful utility functions, etc.  
