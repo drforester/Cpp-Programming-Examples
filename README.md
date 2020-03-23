@@ -64,6 +64,7 @@ These modern C++ examples are meant to serve as examples for me to reference now
 #### Other Competetive Programming & Interview Problem Solutions 
 1. [__Reverse an Integer__](src/reverse\_int.cpp)    
 2. [__Container with the most water__](src/mostWater.cpp)  
+3. [__Implement atoi() to convert input string to 32-bit integer__](src/atoi.cpp)  
 
 
 #### Useful utility functions, etc.  
