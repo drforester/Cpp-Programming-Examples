@@ -1,14 +1,11 @@
 /*
 --- Longest Palindromic Substring ---
-
 Given a string s, find the longest palindromic substring in s.
 You may assume that the maximum length of s is 1000.
-
 Example 1:
     Input: "babad"
     Output: "bab"
     Note: "aba" is also a valid answer.
-
 Example 2:
     Input: "cbbd"
     Output: "bb"
@@ -16,29 +13,28 @@ Example 2:
 
 #include <iostream>
 #include <string>
-#include <map>
+#include <algorithm>
 
 using std::cout;
 using std::string;
-using std::map;
 
 int main()
 {
     string inStr;
     std::getline(std::cin, inStr); // for testing only XXXXXXXXX
-    
-    bool FOUND = false;
-    unsigned int i=0;
-    map<char,int> omap; 
-    while (! FOUND) {
-        omap[inStr[i]]++;
 
-        cout << inStr[i] << ":" << omap[inStr[i]] << " ";
-       
-        // check loop termination condition & increment index
-        if (i==(inStr.size()-1))
-            FOUND = true;
-        i += 1;
+    int n = inStr.size();
+    string pal = "";
+    int dist, i1, i2;
+    for (int i=1; i<n-1; i++) {
+        dist = std::min(i, n-1-i);
+        cout << dist << " ";
+        for (int j=1; j<dist+1; j++) {
+            cout << "   " << j;
+        }
+        cout << "\n";
     }
 
 }
+
+
