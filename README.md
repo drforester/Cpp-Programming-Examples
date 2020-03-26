@@ -17,7 +17,7 @@ These modern C++ examples are meant to serve as examples for me to reference now
 
 
 #### Lists
-1. [Merge two lists](src/merge\_lists.cpp)  
+1. [Merge two lists using std::merge()](src/merge\_lists.cpp)  
 2. [Append a list to the end of another](src/splice\_lists.cpp)  
 3. [Remove elements using a filter](src/list\_rm\_elems.cpp)    
 
