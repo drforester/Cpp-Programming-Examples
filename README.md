@@ -61,10 +61,15 @@ These modern C++ examples are meant to serve as examples for me to reference now
 1. [Sort a vector of custom class objects by private member variable](src/vec\_of\_objs/vec\_of\_objs.cpp)   
 
 
+#### Data Structures and Algorithm Examples  
+1. [An implementation of a singly-linked list](src/singlyLinkedList.cpp)  
+
+
 #### Other Competetive Programming & Interview Problem Solutions 
 1. [Reverse an Integer](src/reverse\_int.cpp)    
 2. [Container with the most water](src/mostWater.cpp)  
 3. [Implement atoi() to convert input string to 32-bit integer](src/atoi.cpp)  
+4. [Longest Palindromic Substring](src/palindromic.cpp)  
 
 
 #### Useful utility functions, etc.  
