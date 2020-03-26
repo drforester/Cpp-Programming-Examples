@@ -63,6 +63,7 @@ These modern C++ examples are meant to serve as examples for me to reference now
 
 #### Data Structures and Algorithm Examples  
 1. [An implementation of a singly-linked list](src/singlyLinkedList.cpp)  
+2. [Merge two singly-linked lists](src/merge2lists.cpp) 
 
 
 #### Other Competetive Programming & Interview Problem Solutions 
