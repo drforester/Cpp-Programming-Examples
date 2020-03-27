@@ -9,6 +9,8 @@ public:
 };
 
 class LinkedList{
+private:
+    Node* head;
 public:
     LinkedList() { // constructor
         head = NULL;
@@ -17,20 +19,18 @@ public:
     void addNode(int val);
     void reverseList();
     void display();
-private:
-    Node* head;
 };
 
-// function to add node to a list
+// function to add node to the end of a list
 void LinkedList::addNode(int val) {
     Node* newnode = new Node();
     newnode->data = val;
     newnode->next = NULL;
-    if (head == NULL) {
+    if (head == NULL) { // in case this is the list's first node
         head = newnode;
     }
     else {
-        Node* temp = head; // head is not NULL
+        Node* temp = head; // start at the head
         while (temp->next != NULL) { 
             temp = temp->next; // go to end of list
         }
