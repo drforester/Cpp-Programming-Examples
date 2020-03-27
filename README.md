@@ -57,13 +57,10 @@ These modern C++ examples are meant to serve as examples for me to reference now
 2. [__Application__: Depth-first-search (DFS) in a directed graph](src/dfs\_example.cpp)  
 
 
-#### Classes  
-1. [Sort a vector of custom class objects by private member variable](src/vec\_of\_objs/vec\_of\_objs.cpp)   
-
-
-#### Data Structures and Algorithm Examples  
-1. [An implementation of a singly-linked list](src/singlyLinkedList.cpp)  
-2. [Merge two singly-linked lists](src/merge2lists.cpp) 
+#### Data Structures: __Linked-Lists__  
+1. [A simple implementation of a singly-linked list](src/linkedLists/singlyLinkedList.cpp)  
+2. [Merge two singly-linked lists](src/linkedLists/merge2lists.cpp)  
+3. [A class implementation of a singly-linked list](src/linkedLists/linkedList.cpp)  
 
 
 #### Other Competetive Programming & Interview Problem Solutions 
@@ -71,6 +68,10 @@ These modern C++ examples are meant to serve as examples for me to reference now
 2. [Container with the most water](src/mostWater.cpp)  
 3. [Implement atoi() to convert input string to 32-bit integer](src/atoi.cpp)  
 4. [Longest Palindromic Substring](src/palindromic.cpp)  
+
+
+#### Classes  
+1. [Sort a vector of custom class objects by private member variable](src/vec\_of\_objs/vec\_of\_objs.cpp)   
 
 
 #### Useful utility functions, etc.  
