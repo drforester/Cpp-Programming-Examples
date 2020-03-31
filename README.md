@@ -63,6 +63,10 @@ These modern C++ examples are meant to serve as examples for me to reference now
 3. [A class implementation of a singly-linked list](src/linkedLists/linkedList.cpp)  
 
 
+#### Algorithms: __Search__  
+1. [Binary Search](src/algorithms/binarySearch.cpp)  
+
+
 #### Other Competetive Programming & Interview Problem Solutions 
 1. [Reverse an Integer](src/reverse\_int.cpp)    
 2. [Container with the most water](src/mostWater.cpp)  
