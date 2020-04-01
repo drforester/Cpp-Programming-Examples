@@ -67,6 +67,11 @@ These modern C++ examples are meant to serve as examples for me to reference now
 1. [Binary Search](src/algorithms/binarySearch.cpp)  
 
 
+#### Algorithms: __Sort__  
+1. [Merge Sort](src/algorithms/mergeSort.cpp)  
+1. [Merge Sort using std::inplace_merge()](src/algorithms/mergeSort_stl.cpp)  
+
+
 #### Other Competetive Programming & Interview Problem Solutions 
 1. [Reverse an Integer](src/reverse\_int.cpp)    
 2. [Container with the most water](src/mostWater.cpp)  
