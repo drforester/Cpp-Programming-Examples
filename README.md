@@ -85,6 +85,7 @@ These modern C++ examples are meant to serve as examples for me to reference now
 
 #### bitset and number base representations  
 1. [decimal-to-binary and binary-to-decimal conversions](src/bitset\_etc/decimal_binary_conversion.cpp)   
+2. [an recursive decimal-to-binary conversion function (meant only for amusement)](src/bitset\_etc/recursive_dec_to_bin.cpp)    
 
 
 #### Useful utility functions, etc.  
