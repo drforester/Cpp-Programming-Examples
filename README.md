@@ -24,7 +24,7 @@ These modern C++ examples are meant to serve as examples for me to reference now
 
 #### Vectors, including methods from \<algorithms\>, \<functional\>, \<numeric\>, etc.  
 1. [min_element(), max_element(), accumulate()](src/vector\_STL\_algorithms.cpp)  
-2. [Using std::accumulate] (src/sum\_prod.cpp)    
+2. [Using std::accumulate](src/sum\_prod.cpp)    
 3. [Sort and comparator functions](src/vec\_sorting.cpp)  
 4. [A Vector of vectors](src/vec\_of\_vecs1.cpp)  
 5. [More vector of vectors](src/vec\_of\_vecs2.cpp)  
