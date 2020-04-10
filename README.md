@@ -24,11 +24,12 @@ These modern C++ examples are meant to serve as examples for me to reference now
 
 #### Vectors, including some of the \<algorithms\> library    
 1. [min_element(), max_element(), accumulate()](src/vector\_STL\_algorithms.cpp)  
-2. [Sort and comparator functions](src/vec\_sorting.cpp)  
-3. [A Vector of vectors](src/vec\_of\_vecs1.cpp)  
-4. [More vector of vectors](src/vec\_of\_vecs2.cpp)  
-5. [Randomly __shuffle__ elements in a vector or a list](src/shuffles.cpp)  
-6. [Rearrange a collection into the next lexicographical permutation](src/permutations.cpp)  
+2. [The average of a collection (using std::accumulate)] (src/average\_of\_a\_collection.cpp)    
+3. [Sort and comparator functions](src/vec\_sorting.cpp)  
+4. [A Vector of vectors](src/vec\_of\_vecs1.cpp)  
+5. [More vector of vectors](src/vec\_of\_vecs2.cpp)  
+6. [Randomly __shuffle__ elements in a vector or a list](src/shuffles.cpp)  
+7. [Rearrange a collection into the next lexicographical permutation](src/permutations.cpp)  
 
 
 #### Deques
