@@ -22,9 +22,9 @@ These modern C++ examples are meant to serve as examples for me to reference now
 3. [Remove elements using a filter](src/list\_rm\_elems.cpp)    
 
 
-#### Vectors, including some of the \<algorithms\> library    
+#### Vectors, including methods from \<algorithms\>, \<functional\>, \<numeric\>, etc.  
 1. [min_element(), max_element(), accumulate()](src/vector\_STL\_algorithms.cpp)  
-2. [The average of a collection (using std::accumulate)] (src/average\_of\_a\_collection.cpp)    
+2. [Using std::accumulate] (src/sum\_prod.cpp)    
 3. [Sort and comparator functions](src/vec\_sorting.cpp)  
 4. [A Vector of vectors](src/vec\_of\_vecs1.cpp)  
 5. [More vector of vectors](src/vec\_of\_vecs2.cpp)  
