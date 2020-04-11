@@ -90,7 +90,8 @@ These modern C++ examples are meant to serve as examples for me to reference now
 
 
 #### Functional Programming Examples
-1. [trimming whitespace around a string](src/functional/trimming\_whitespace.cpp)    
+1. [Trimming whitespace around a string](src/functional/trimming\_whitespace.cpp)  
+2. [Filtering a collection](src/functional/filtering.cpp)  
 
 
 #### Useful utility functions, etc.  
