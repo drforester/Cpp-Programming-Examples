@@ -1,5 +1,5 @@
 /*
-
+one way to do it using the STL
 */
 
 #include <iostream>
@@ -78,6 +78,8 @@ int main()
     
     for (auto& e:femaleLinuxUsers)
         e.printPerson();
+
+
 }
 
 
