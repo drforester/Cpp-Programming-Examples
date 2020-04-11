@@ -89,6 +89,10 @@ These modern C++ examples are meant to serve as examples for me to reference now
 2. [an recursive decimal-to-binary conversion function (meant only for amusement)](src/bitset\_etc/recursive_dec_to_bin.cpp)    
 
 
+#### Functional Programming Examples
+1. [trimming whitespace around a string](src/functional/trimming\_whitespace.cpp)    
+
+
 #### Useful utility functions, etc.  
 1. [A variadic printing function for debugging](src/test\_debug.cpp)  
 2. [A template printing function for vectors of different data types](src/utils/printing.cpp)  
