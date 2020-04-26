@@ -4,14 +4,15 @@
 
 // a tempate vector print function
 template <typename T>
-T printVec(std::vector<T> V) {
+void printVec(std::vector<T> &V) {
     for (auto& e: V)
         std::cout << e << " ";
     std::cout << "\n";
 }
 
+// a template list print function
 template <typename T>
-T printList(std::list<T> L) {
+void printList(std::list<T> &L) {
     for (auto& e: L)
         std::cout << e << " ";
     std::cout << "\n";
