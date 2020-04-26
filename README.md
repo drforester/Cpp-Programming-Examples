@@ -96,7 +96,7 @@ These modern C++ examples are meant to serve as examples for me to reference now
 
 #### Useful utility functions, etc.  
 1. [A variadic printing function for debugging](src/test\_debug.cpp)  
-2. [A template printing function for vectors of different data types](src/utils/printing.cpp)  
+2. [A template printing function for vectors of different data types](src/utils/printing.hpp)  
 2. [Starter source for competitive programming](src/starter.cpp)  
 
 
